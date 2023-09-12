@@ -1,6 +1,6 @@
 # Automata-Simple-Project
 
-Introduction:
+## Introduction:
 
 Automata theory is a fundamental branch of computer science that deals with the study of abstract machines and their computational abilities. Deterministic Finite Automata (DFA) is one of the simplest types of automata, which consists of a finite set of states, input alphabet, transition function, and initial and accepting states.
 
@@ -8,7 +8,7 @@ In this project, we aim to design a DFA with five states that accepts the langua
 
 This project will provide an opportunity to explore the concepts of automata theory in detail and apply them to solve a specific problem. It will also demonstrate the usefulness of DFA in recognizing regular languages, which have a wide range of applications in computer science, including lexical analysis, parsing, and pattern matching.
 
-Acceptance:
+## Acceptance:
 
 The steps that lead to the acceptance of a string by the DFA designed to accept the language L = {(a^n)*(b^m) | n modulo 2=0 and m≥1} are as follows:
 The DFA starts in its initial state q0.
@@ -21,7 +21,7 @@ If the input string is accepted, the DFA enters an accepting state, and the stri
 In summary, the DFA accepts a string if and only if it transitions from its initial state q0 to the accepting state q3 while reading the input symbols of the string, following the transition function rules defined by its states and input alphabet. These steps illustrate how the DFA recognizes strings in the language L and demonstrate the usefulness of automata in recognizing regular languages."
 
 
-Lexical analysis:
+## Lexical analysis:
 
 1.	The language L consists of strings of the form (a^n)*(b^m), where n is an even non-negative integer and m is a positive integer.
 2.	The alphabet of the language L consists of the two symbols 'a' and 'b'.
@@ -43,7 +43,7 @@ Q4	-	-
 7.	The language L can be used to describe various phenomena, such as the presence of even numbers of certain elements in a sequence or the specification of certain types of inputs in a programming language.
 8.	The DFA designed for L can be useful for validating input strings in various applications, such as compilers, text editors, or input forms on web pages.
 
-Syntax analysis:
+## Syntax analysis:
 
 1.	The syntax analysis phase of a compiler typically involves analyzing the structure of the input program using a context-free grammar and producing a parse tree or abstract syntax tree that captures the program's structure.
 2.	However, in the case of a DFA for a regular language like L, there is no explicit syntax to analyze, since the language is defined by a set of strings that can be recognized by the DFA.
